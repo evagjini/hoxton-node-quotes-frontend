@@ -53,4 +53,6 @@ button {
   font-weight: 20px;
   border: 1px solid gray;
   padding: 1rem;
+  color: rgb(90, 56, 121);
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
