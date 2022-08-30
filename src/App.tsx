@@ -17,10 +17,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="fav-title"> Your Favorite Quotes!!</h1>
+      <h1 className="fav-title"> My Favorite Quotes!!</h1>
       <ul>
         {quotes.map((quote) => (
-          <li className="quotes-list">
+          <li key={quote.id} className="quotes-list">
             <h2>{quote.author}</h2>
             <h3 className="description">{quote.quote}</h3>
           </li>
